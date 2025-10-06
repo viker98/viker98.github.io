@@ -25,76 +25,127 @@ body {
 
 .TopDiv
 {
-  /*
-  border: 5px;
-  border-style:solid;
-  border-radius: 1px;
-  border-width: 1px;
-  border-color: rgb(255, 255,255);
-  */
+  
   width: 95%;
   display:flexbox;
 
 
   img
   {
+    padding:15px;
+    margin:10px;
     float: left;
     margin-top: 1em;
     margin-left: 10%;
-    border: 5px;
     margin-bottom: 20px;
+    /*
     border-style: solid;
     border-radius: 5px;
     border-width: 5px;
-    border-color: green;
+    border-color: rgb(128, 0, 0);
+    */
     max-width: 30vw;
     width: auto;
     height: auto;
   }
   div
   {
+     background-color: rgb(48, 47, 47);
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    /*
+    background-color: rgb(99, 96, 96);     CHANGE COLOR OF BOXES HER      
+    border-radius: 10px;          
+    padding: 5px;                   
+    */
     
     margin-top: 1em;
-
-    border-color: purple;
-    border: 5px;
-
     margin-right: 10%;
     float: right;
+    
+    /*
     border-style: solid;
     border-radius: 5px;
     border-width: 5px;
-    border-color: blueviolet;
+    border-color: rgb(0, 255, 55);
+    */
+    
     h1
     {
       font-size: 3vw;
       text-align: center;
-      width:30vw;
+      width:35vw;
       overflow-wrap: break-word;
     }
   }
   .TextBox
   {
-    
     border-color:black;
-    font-size: 2.6vw;
+    /*
     margin-right: 10%;
+    font-size: 2.6vw;
+    */
     float: right;
-    width: 30vw;
+    width: 35vw;
     text-align: center;
     overflow-wrap: break-word;
+    p1
+    {
+      font-size: 1.5vw;
+    }
   }
+
+  .ContactInfo
+  {
+      display:flexbox;
+
+  
+      /*
+      border-style:solid;
+      border-radius: 1px;
+      border-width: 1px;
+      border-color: rgb(255, 255,255);
+      */
+      text-align: center;
+      align-content: center;
+      
+      .ContactTextBox
+      {
+        font-size: 1vw;
+        border: 0px;
+        float:left;
+        margin-left: 7vw;
+        margin-top: 20px;
+        text-align: left;
+      }
+      
+  }
+
+
 }
 
-.MiddleDiv
+.SkillsDivBox
 {
   border-color: white;
   border-radius: 5px;
   border-width: 5px;
   border-style: solid;
   width: 95%;
+
+  .SkillTextBox
+  {
+    width: 50%;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+  }
+
 }
-  /*~
+
+
+/*
     
 {
   border: 5px outset rgba(255, 0, 174, 0.59);
