@@ -127,21 +127,35 @@ body {
 
 .SkillsDivBox
 {
+  /*
   border-color: white;
   border-radius: 5px;
   border-width: 5px;
   border-style: solid;
+  */
   width: 95%;
-
   .SkillTextBox
   {
+    width: fit-content;
+    margin-left: 10%;
     width: 50%;
-    border-color: white;
-    border-radius: 5px;
+    
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
     border-width: 5px;
     border-style: solid;
-  }
+    background-color: rgb(48, 47, 47);
+    p1
+    {
+      margin-left: 10%;
+    }
+    ul
+    {
+      margin-left: 10%;
 
+    }
+
+  }
 }
 
 

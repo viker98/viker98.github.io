@@ -30,30 +30,50 @@
         </div>
     </div>
 
-    <br>
+    <p id="TestID">979784</p>
+
+    <button onclick="testFunction()" id="TestButton" style="color: red;">TEST</button>
+
+    <script>
+        var randomNumber = Math.floor(Math.random() * 10) + 1;
+        var textDivExample = document.getElementsById('SkillsDivBoxID')
+        var MiddleDivBox = document.getElementById('TestID')
+        function testFunction()
+        {
+            MiddleDivBox.textContent = Time();
+        }
+
+    </script>
 
 
-    <div class = "SkillsDivBox">
-        <h1 style = "text-align: left; margin-left: 20px;">Skills</h1>
+    <div class = "SkillsDivBox" id="SkillsDivBoxID">
+        <h1 style = "text-align: left; margin-left: 15%;">Skills</h1>
         <div class = "SkillTextBox">
-
-            <ul>
-                <li>Unreal Engine 5</li>
-                <li>Unity Engine</li>
-
-                <li>C++</li>
-                <li>C#</li>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-
-                <li>Maya</li>
-                <li>ZBrush</li>
-                <li>Substance Painter</li>
+            <p1><strong>Engines</strong></p1>
+            <ul style="font-size: 2vw;">
+                <li>Unreal Engine 5 <img src="Images/UnrealEngineImage.png" style="width: 15%;"></li>
+                <li>Unity Engine <img src="Images/UnityImage.png" style="width: 30%;"></li>
+                <li>Godot <img src="Images/GodotImage.png" style="width: 15%;"></li>
+                <br>
+            </ul>
+            <p1><strong>Programming Languages</strong></p1>
+            <ul style="font-size: 2vw;">
+                <li>C++ <img src="Images/C++Image.png" style="width: 10%;"></li>
+                <li>C# <img src="Images/CSharpImage.png" style="width: 15%;"></li>
+                <li>Python <img src="Images/PythonImage.png" style="width: 10%;"></li>
+                <li>HTML <img src="Images/HTMLLogo.png" style="width: 15%;"></li>
+                <li>CSS <img src="Images/CSSLogo.png" style="width: 10%;"></li>
+                <br>
+            </ul>
+            <p1><strong>Software</strong></p1>
+            <ul style="font-size: 2vw;">
+                <li>Maya <img src="Images/MayaImage.jpg" style="width: 4.5vw;"></li>
+                <li>ZBrush <img src="Images/ZBrushImage.jpg" style="width: 4.5vw;"></li>
+                <li>Substance Painter <img src="Images/SubstancePainterImage.png" style="width: 4.5vw;"></li>
             </ul>
         </div>
     </div>
-
+    
 
 
 
