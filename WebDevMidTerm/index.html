@@ -29,58 +29,159 @@
             <br>
         </div>
     </div>
-
-    <p id="TestID">979784</p>
-
-    <button onclick="testFunction()" id="TestButton" style="color: red;">TEST</button>
-
-    <script>
-        var randomNumber = Math.floor(Math.random() * 10) + 1;
-        var textDivExample = document.getElementsById('SkillsDivBoxID')
-        var MiddleDivBox = document.getElementById('TestID')
-        function testFunction()
-        {
-            MiddleDivBox.textContent = Time();
-        }
-
-    </script>
+        
+    <nav class="button-nav">
+        <button onclick="showSection('projects')" class="custom-button">Projects</button>
+        <button onclick="showSection('skills')" class="custom-button">Skills</button>
+        <button onclick="showSection('education')" class="custom-button">Education</button>
+    </nav>
 
 
-    <div class = "SkillsDivBox" id="SkillsDivBoxID">
-        <h1 style = "text-align: left; margin-left: 15%;">Skills</h1>
-        <div class = "SkillTextBox">
-            <p1><strong>Engines</strong></p1>
-            <ul style="font-size: 2vw;">
-                <li>Unreal Engine 5 <img src="Images/UnrealEngineImage.png" style="width: 15%;"></li>
-                <li>Unity Engine <img src="Images/UnityImage.png" style="width: 30%;"></li>
-                <li>Godot <img src="Images/GodotImage.png" style="width: 15%;"></li>
-                <br>
-            </ul>
-            <p1><strong>Programming Languages</strong></p1>
-            <ul style="font-size: 2vw;">
-                <li>C++ <img src="Images/C++Image.png" style="width: 10%;"></li>
-                <li>C# <img src="Images/CSharpImage.png" style="width: 15%;"></li>
-                <li>Python <img src="Images/PythonImage.png" style="width: 10%;"></li>
-                <li>HTML <img src="Images/HTMLLogo.png" style="width: 15%;"></li>
-                <li>CSS <img src="Images/CSSLogo.png" style="width: 10%;"></li>
-                <br>
-            </ul>
-            <p1><strong>Software</strong></p1>
-            <ul style="font-size: 2vw;">
-                <li>Maya <img src="Images/MayaImage.jpg" style="width: 4.5vw;"></li>
-                <li>ZBrush <img src="Images/ZBrushImage.jpg" style="width: 4.5vw;"></li>
-                <li>Substance Painter <img src="Images/SubstancePainterImage.png" style="width: 4.5vw;"></li>
-            </ul>
+            <!--        projects         SECTION      -->
+    <section id="projects" class="content-section">
+        <div class="projects-container">
+            <div class="projectsdivbox">
+            <img src="Images/VRTowerDefence.png" alt="Project 1" class="project-image" />
+                <div class="project-content">
+                    <h3 class="project-title">VR Tower Defence</h3>
+                    <p class="project-description">This was my second try to make something in VR with my first being a tiny firing range but I was inspired by my short addiction to Bloons Tower Defence 6 to try and make a Tower Defence in VR.</p>
+                    <p><img src="Images/UnityImage.png" alt="Unity logo" width="24px" height="24px"/>  Made In Unity</p>
+                    
+                    <a href="https://github.com/viker98/VR-Tower-Defence-Game" class="project-link" target="_blank">View Project</a>
+
+                </div>
+            </div>
+
+            <div class="projectsdivbox">
+            <img src="Images/DungeonGenerator.png" alt="Project 2" class="project-image" />
+                <div class="project-content">
+                <h3 class="project-title">Dungeon Generator</h3>
+                <p class="project-description">This project came from my love of the Rouge Like genre. As a child I always thought is was cool how something is random all the time and as a adult I enjoyed being able to actually code it.</p>
+                <p><img src="Images/UnrealEngineImage.png"alt="Unreal Logo" width="24px" height="24px" />  Made In Unreal</p>
+
+                <a href="https://github.com/viker98/Dungeon-Generator" class="project-link" target="_blank">View Project</a>
+            </div>
+            </div>
+            <!-- IF I WANNA ADD MORE STUFF 
+            <div class="projectsdivbox">
+                <img src="Images/CSSLogo.png" alt="Project 3" class="project-image" />
+                <div class="project-content">
+                    <h3 class="project-title">Project Three</h3>
+                    <p class="project-description">Description of your third project.</p>
+                    <a href="https://project3.com" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            -->
         </div>
-    </div>
+    </section>
+
+       <!--         EDUCATION AND EXPERIENCE SECTION   -->         
+    <section id="education" class="content-section"style="display: none;">
+        <section class="education-section">
+            <h2 class="education-title">Education & Experience</h2>
+
+            <div class="education-container">
+            <!-- Education -->
+                <div class="education-box">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                    <img src="Images/UIWLogo.png" alt="UIW Logo" />
+                        <div>
+                        <strong>University of The Incarnate Word</strong><br />
+                        <span>Bachelor of Fine Arts in 3D Animation and Game Design (Programming Concentration)</span><br />
+                        <em>2022 – 2026</em>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                    <img src="Images/UIWLogo.png" alt="UIW Logo" />
+                        <div>
+                        <strong>University of The Incarnate Word</strong><br />
+                        <span>Minor in Computer Information Systems</span><br />
+                        <em>2022 – 2026</em>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+
+            <!-- Experience -->
+                <div class="education-box">
+                <h3>Experience</h3>
+                <ul>
+                    <li>
+                    <img src="Images/UIWLogo.png" alt="UIW Logo" />
+                        <div>
+                        <strong>Lead Developer and Sole Programmer</strong><br/>
+                        <span>UIW Internal Game Jam</span><br />
+                        <em>2024</em><br />
+                        <p>Was the Lead and sole programmer as well as gameplay developer for a internal Game Jam while I was at school at UIW</p>
+                        </div>
+                    </li>
     
 
+                    <li>
+                    <img src="Images/UIWLogo.png" alt="UIW Logo" />
+                        <div>
+                        <strong>Gameplay and UI Programmer</strong><br/>
+                        <span>UIW Senior Thesis Projects</span><br />
+                        <em>2025 – 2026</em><br />
+                        <p>Was a gameplay and the main UI programmer for the senior thesis projects for my class</p>
+                        </div>
+                    </li>
+                    <li>
+                </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+<section id="skills" class="content-section" style="display: none;">
+    <section class="skills">
+      <h2 class="skills-title">Skills</h2>
+    
+      <div class="skills-container">
+        <!-- Programming Languages -->
+        <div class="skills-box">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li><img src="Images/C++Image.png" alt="C++ logo" />C++</li>
+            <li><img src="Images/CSharpImage.png" alt="C# logo" />C#</li>
+            <li><img src="Images/HTMLLogo.png" alt="HTML logo" />HTML</li>
+            <li><img src="Images/CSSLogo.png" alt="CSS logo" />CSS</li>
+          </ul>
+        </div>
+    
+        <!-- Software -->
+        <div class="skills-box">
+          <h3>Software</h3>
+          <ul>
+            <li><img src="Images/GithubImage.png" alt="Github Logo" />Github</li>
+            <li><img src="Images/MayaImage.jpg" alt="Maya Logo" />Maya</li>
+            <li><img src="Images/ZBrushImage.jpg" alt="Zbrush Logo" />ZBrush</li>
+            <li><img src="Images/SubstancePainterImage.png" alt="SubstancePainter Logo" />Substance Painter</li>
+    
+          </ul>
+        </div>
+    
+        <!-- Engines -->
+        <div class="skills-box">
+          <h3>Engines</h3>
+          <ul>
+            <li><img src="Images/UnrealEngineImage.png" alt="Unreal Engine logo" />Unreal Engine</li>
+            <li><img src="Images/UnityImage.png" alt="Unity logo" />Unity</li>
+            <li><img src="Images/GodotImage.png" alt="Godot logo" />Godot</li>
+          </ul>
+        </div>
+      </div>
+    </section>    
+</section>
 
 
 
 
-
-
+    <script src="src/_myjs.js"></script>
     <script type="module" src="/src/main.js"></script>
 </body>
 </html>
