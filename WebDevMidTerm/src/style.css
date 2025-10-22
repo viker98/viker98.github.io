@@ -95,7 +95,6 @@ body {
       font-size: 1.5vw;
     }
   }
-
   .ContactInfo
   {
       display:flexbox;
@@ -121,8 +120,6 @@ body {
       }
       
   }
-
-
 }
 
 /*      PROJECTS SECTIONS     */
