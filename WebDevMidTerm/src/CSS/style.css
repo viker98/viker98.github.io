@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CustomFont";
-  src: url('Fonts/Lato-Black.ttf') format('truetype');
+  src: url('Fonts/Raleway-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -24,6 +24,7 @@
 
 
 body {
+  background: linear-gradient(135deg, #000000, #0F172A);
   font-family: 'CustomFont';
   margin: 0;
   display: flex;
@@ -42,18 +43,18 @@ body {
 
   img
   {
-    padding:15px;
+   
     margin:10px;
     float: left;
     margin-top: 1em;
     margin-left: 10%;
     margin-bottom: 20px;
-    /*
+    
     border-style: solid;
     border-radius: 5px;
     border-width: 5px;
-    border-color: rgb(128, 0, 0);
-    */
+    border-color: rgb(185, 185, 185);
+    
     max-width: 30vw;
     width: auto;
     height: auto;
@@ -61,7 +62,7 @@ body {
   div
   {
      background-color: rgb(48, 47, 47);
-    border: 5px solid black;
+    border: 5px solid rgb(185, 185, 185);;
     border-radius: 15px;
     margin: 10px;
     /*
@@ -91,7 +92,7 @@ body {
   }
   .TextBox
   {
-    border-color:black;
+    border-color:rgb(185, 185, 185);
     /*
     margin-right: 10%;
     font-size: 2.6vw;
@@ -140,7 +141,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #444; /* grey background */
-  border: 5px solid black; /* black border */
+  border: 5px solid rgb(185, 185, 185); /* black border */
   border-radius: 15px; /* curved edges */
   padding: 16px;
   max-width: 350px;
@@ -221,7 +222,7 @@ body {
 .custom-button {
   background-color: rgb(48, 47, 47); /* dark background */
   color: white;
-  border: 4px solid rgb(0, 0, 0);
+  border: 4px solid rgb(185, 185, 185);
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 1em;
@@ -241,35 +242,10 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*      SKILLS SECTION        */
 .skills-section {
   background-color: #444;
-  border: 2px solid black;
+  border: 2px solid rgb(185, 185, 185);
   border-radius: 16px;
   color: white;
   padding: 40px 20px;
@@ -295,7 +271,7 @@ body {
 
 .skills-box {
   background-color: #333;
-  border: 5px solid black;
+  border: 5px solid rgb(185, 185, 185);
   border-radius: 12px;
   padding: 20px;
   width: 280px;
@@ -340,7 +316,7 @@ body {
 /*      EDUCATIONS AND EXPERIENCES SECTIONS*/
 .education-section {
   background-color: #444;
-  border: 5px solid black;
+  border: 5px solid rgb(185, 185, 185);
   border-radius: 16px;
   color: white;
   padding: 40px 20px;
@@ -366,7 +342,7 @@ body {
 
 .education-box {
   background-color: #333;
-  border: 5px solid black;
+  border: 5px solid rgb(185, 185, 185);
   border-radius: 12px;
   padding: 20px;
   width: 420px;
