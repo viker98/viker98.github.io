@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url('Fonts/Lato-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'CustomFont';
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,6 +24,7 @@
 
 
 body {
+  font-family: 'CustomFont';
   margin: 0;
   display: flex;
   flex-direction: column;
