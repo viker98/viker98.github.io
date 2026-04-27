@@ -205,11 +205,19 @@ body {
   gap: 20px; /* space between boxes */
   margin: 40px auto;
   max-width: 1200px; /* keeps layout centered and clean */
+
 }
 
 .projectsdivbox {
   flex: 1 1 300px; /* allows boxes to shrink/grow and wrap nicely */
   margin: 0; /* remove the old auto margin so they align side-by-side */
+}
+
+.tab-content-wrapper{
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 600px;
 }
 
 .button-nav {
